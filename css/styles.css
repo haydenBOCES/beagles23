@@ -57,8 +57,9 @@ header h3 {
 }
 
 .hnav a:hover {
-	text-decoration: line-through;
-	color: beige;
+	text-decoration: none;
+	background-color: beige;
+	color: #11181E;
 }
 
 h1 {
@@ -82,25 +83,36 @@ main {
 
 #container img {
 	float: left;
-	padding-right: 2%;
+	margin-right: 2%;
+	width: 50%;
+	border: 6px solid #11181E;
 }
 
 h2 {
-
+	text-align: center;
+	color: black;
 }
 
 blockquote {
-
+	font-size: 1.5em;
 }
 
-table {
+td, input {
+	font-size: 1.3em;
+}
 
+.button {
+	background-color: peru;
+	border-radius: 3px;
+	display: inline-block;
+	margin: 3%;
 }
 
 .fnav {
+	padding: 5px 0;
+	width: 100%;
 	background-color: #11181E;
 	min-height: 50px;
-	width: 100%;
 }
 
 .fnav ul {
@@ -111,19 +123,20 @@ table {
 .fnav ul li {
 	display: inline-block;
 	list-style: none;
-	width: 8%;
+	width: 15%;
 	margin-top: .8%;
 }
 
 .fnav a {
 	color: #e4f2ea;
 	text-decoration: none;
-	font-size: .8em;
+	font-size: 1.5em;
 }
 
 .fnav a:hover {
-	text-decoration: line-through;
-	color: beige;
+	text-decoration: none;
+	background-color: beige;
+	color: #11181E;
 }
 
 footer h5, footer h6 {
